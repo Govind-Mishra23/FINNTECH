@@ -16,7 +16,6 @@ const About = ({ onApplyClick, navigateTo }) => {
     "Project Finance",
     "Infrastructure Funding",
     "Rental Discounting",
-    "Construction Finance",
   ];
 
   return (
@@ -109,7 +108,7 @@ const About = ({ onApplyClick, navigateTo }) => {
                 <p>
                   With{" "}
                   <span className="font-semibold text-gray-900">
-                    decades of collective experience
+                    decade of collective experience
                   </span>
                   , we deliver transparent, personalized, and strategic guidance
                   tailored to each client's unique goals. Our proven track
@@ -161,7 +160,7 @@ const About = ({ onApplyClick, navigateTo }) => {
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
                 With{" "}
                 <span className="font-semibold text-gray-900">
-                  decades of collective experience
+                  decade of collective experience
                 </span>
                 , we deliver transparent, personalized, and strategic guidance
                 tailored to each client's unique goals.

@@ -19,13 +19,9 @@ const Footer = () => {
             <div className="text-xl font-bold text-gray-300 mb-3">
               Finntech Business Solutions
             </div>
-            <p className="text-gray-400 text-sm mb-4">
-              Expert financial consultancy services tied up with all leading
-              banks.
-            </p>
             <div className="flex space-x-3">
               <a
-                href="mailto:info@finntechbs.com"
+                href="mailto:v.avinash@hotmail.com"
                 className="text-gray-400 hover:text-white transition-colors"
                 title="Email Us"
               >
@@ -145,15 +141,20 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-gray-400">
               <li className="flex items-start space-x-2">
                 <FaMapMarkerAlt className="text-gray-300 mt-1 flex-shrink-0 text-xs" />
-                <span>Indiranagar, Bangalore - 560038</span>
+                <div className="leading-relaxed">
+                  <span className="block">775/A, 4th Floor, 9th A Main,</span>
+                  <span className="block">1st Stage, Indiranagar</span>
+                  <span className="block">Above Anglo American Opticals.</span>
+                  <span className="block">Bangalore - 560038</span>
+                </div>
               </li>
               <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-gray-300 flex-shrink-0 text-xs" />
                 <a
-                  href="mailto:info@finntechbs.com"
+                  href="mailto:v.avinash@hotmail.com"
                   className="hover:text-white transition-colors"
                 >
-                  info@finntechbs.com
+                  v.avinash@hotmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">

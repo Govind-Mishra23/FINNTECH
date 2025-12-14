@@ -1,4 +1,4 @@
-import hero1Banner from "../assets/hero1.png";
+import hero1Banner from "../assets/hero_main.png";
 import { FaCheckCircle } from "react-icons/fa";
 
 const Hero = ({ onApplyClick }) => {
@@ -51,7 +51,7 @@ const Hero = ({ onApplyClick }) => {
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 pt-4">
               <div className="flex items-center bg-white/25 backdrop-blur-md px-5 py-3 rounded-full border border-white/30 shadow-lg">
                 <FaCheckCircle className="w-5 h-5 text-white mr-2" />
-                <span className="text-white font-medium text-sm" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.5)' }}>No processing fees</span>
+                <span className="text-white font-medium text-sm" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.5)' }}>NIL processing fee</span>
               </div>
               <div className="flex items-center bg-white/25 backdrop-blur-md px-5 py-3 rounded-full border border-white/30 shadow-lg">
                 <FaCheckCircle className="w-5 h-5 text-white mr-2" />

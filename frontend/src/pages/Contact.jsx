@@ -52,10 +52,10 @@ const Contact = ({ onApplyClick, navigateTo }) => {
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-3">Email Us</h3>
               <a
-                href="mailto:info@finntechbs.com"
+                href="mailto:v.avinash@hotmail.com"
                 className="text-lg font-semibold text-gray-800 hover:text-gray-900 transition-colors block mb-2 break-all"
               >
-                info@finntechbs.com
+                v.avinash@hotmail.com
               </a>
               <p className="text-sm text-gray-500">24/7 Email Support</p>
             </div>
