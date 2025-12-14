@@ -89,6 +89,14 @@ const Footer = () => {
                   Structured Finance
                 </a>
               </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Construction Finance
+                </a>
+              </li>
             </ul>
           </div>
 
