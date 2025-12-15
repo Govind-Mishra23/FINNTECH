@@ -13,7 +13,11 @@ const PORT = process.env.PORT || 5000;
 const allowedOrigins = [
   process.env.FRONTEND_URL,
   'http://localhost:5173',
-  'http://localhost:3000'
+  'http://localhost:3000',
+  'https://finntechbs.com',
+  'http://finntechbs.com',
+  'https://www.finntechbs.com',
+  'http://www.finntechbs.com'
 ].filter(Boolean);
 
 app.use(cors({
@@ -23,6 +27,11 @@ app.use(cors({
 
     // Allow only YOUR Vercel deployments (finntech-*.vercel.app)
     if (origin.includes('finntech') && origin.endsWith('.vercel.app')) {
+      return callback(null, true);
+    }
+
+    // Allow finntechbs.com domain
+    if (origin && origin.includes('finntechbs.com')) {
       return callback(null, true);
     }
 
