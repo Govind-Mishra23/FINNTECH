@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             <div className="flex space-x-3">
               <a
-                href="mailto:v.avinash@hotmail.com"
+                href="mailto:avinash@finntechbs.com"
                 className="text-gray-400 hover:text-white transition-colors"
                 title="Email Us"
               >
@@ -159,10 +159,10 @@ const Footer = () => {
               <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-gray-300 flex-shrink-0 text-xs" />
                 <a
-                  href="mailto:v.avinash@hotmail.com"
+                  href="mailto:avinash@finntechbs.com"
                   className="hover:text-white transition-colors"
                 >
-                  v.avinash@hotmail.com
+                  avinash@finntechbs.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">
